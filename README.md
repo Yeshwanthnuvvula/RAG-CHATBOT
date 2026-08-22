@@ -90,6 +90,7 @@ The application follows a Retrieval-Augmented Generation pipeline:
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+```
 
 Tech Stack
 Technology	     Purpose
