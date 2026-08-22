@@ -291,9 +291,7 @@ Design Goals
 The project focuses on three main principles:
 
 1. Grounded Answers
-
 The LLM receives retrieved document context and is instructed not to rely on outside knowledge.
-
 2. Efficient Retrieval
 
 Only relevant document chunks are passed to the LLM.
@@ -306,13 +304,21 @@ Future Improvements
 Possible future improvements include:
 
 📚 Support for multiple documents
+
 📤 PDF upload directly through the UI
+
 🔎 Display retrieved sources
+
 💬 Conversation history
+
 🧹 Improved document management
+
 📊 Retrieval evaluation
+
 🚀 Cloud deployment
+
 🔐 Authentication
+
 ⚙️ Configurable chunk size and retrieval parameters
 
 Author
