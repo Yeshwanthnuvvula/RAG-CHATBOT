@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RAG Chatbot</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <header class="header">
+            <div>
+                <h1>RAG Chatbot</h1>
+                <p>Ask questions from your documents.</p>
+            </div>
+
+            <div class="status">
+                <span class="status-dot"></span>
+                Ready
+            </div>
+        </header>
+
+
+        <main class="chat-container">
+
+            <div id="chat" class="chat">
+
+                <div class="welcome">
+                    <div class="welcome-icon">✦</div>
+
+                    <h2>What would you like to know?</h2>
+
+                    <p>
+                        Ask a question and I'll find the relevant
+                        information from your documents.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="input-area">
+
+                <input
+                    type="text"
+                    id="question"
+                    placeholder="Ask something about your documents..."
+                    autocomplete="off"
+                >
+
+                <button id="askButton">
+                    Ask
+                </button>
+
+            </div>
+
+            <div class="footer">
+                Powered by RAG · Your documents stay at the center
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>
